@@ -48,6 +48,12 @@ Dir.glob("#{source_dir}/**/*").each do |entry|
   end
 end
 
+# Publish a custom GitHub Pages domain when the repo defines one at the root.
+# GitHub Pages expects a top-level CNAME file in the deployed artifact.
+if File.file?("./CNAME")
+  FileUtils.cp("./CNAME", File.join(destination_dir, "CNAME"))
+end
+
 
 source_template = "#{source_dir}/index.html"
 template_file = "#{destination_dir}/index.html"

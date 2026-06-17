@@ -9,7 +9,7 @@
 # Theme — directory under ./themes/. Built-ins:
 #   default | minimal-mono | editorial-serif | neo-brutalism
 #   glassmorphism | terminal-retro | paper-card | newsprint
-theme: glassmorphism
+theme: neo-brutalism
 
 # HTML <html lang> attribute
 lang: "en"
@@ -20,7 +20,7 @@ lang: "en"
 #   dark  — always render dark mode
 # Note: dark-first themes (e.g. terminal-retro) ignore "light" — their
 # whole identity is the dark palette.
-color_scheme: auto
+color_scheme: dark
 
 # -----------------------------------------------------------------------------
 # Plugins — every built-in plugin is shown below as a working example.
@@ -81,12 +81,11 @@ google_analytics_id:
 # -----------------------------------------------------------------------------
 # Profile header
 # -----------------------------------------------------------------------------
-title: "ZhgChgLi's Links"
-avatar: "./images/profile.jpeg"
-name: "@zhgchgli"
+title: "Stronkbear"
+avatar: "./images/profile.png"
+name: "Ian King"
 tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
-    Followed by {{ vars.GithubProfilePlugin['ZhgChgLi'].followers }} on GitHub across {{ vars.GithubProfilePlugin['ZhgChgLi'].repos }} public repos.
+    Digital artist making comics, stickers, and pinup illustrations.
 
 # -----------------------------------------------------------------------------
 # Links
@@ -158,6 +157,27 @@ links:
       title: "Latest YouTube video"
       target: "_blank"
       latest: true
+  - link:
+      icon: "fa-brands fa-instagram"
+      text: "Instagram <span class='link-button-text'>@stronkbear_studio</span>"
+      url: "https://www.instagram.com/stronkbear_studio/"
+      alt: "Stronkbear Studio on Instagram"
+      title: "Stronkbear Studio on Instagram"
+      target: "_blank"
+  - link:
+      icon: "fa-solid fa-book-open"
+      text: "Read on GlobalComix"
+      url: "https://globalcomix.com/a/stronkbear"
+      alt: "Stronkbear on GlobalComix"
+      title: "Stronkbear on GlobalComix"
+      target: "_blank"
+  - link:
+      icon: "fa-solid fa-bag-shopping"
+      text: "Visit the Shop"
+      url: "https://stronkbear.square.site/"
+      alt: "Stronkbear online shop"
+      title: "Stronkbear online shop"
+      target: "_blank"
 
 # -----------------------------------------------------------------------------
 # Social media buttons
@@ -189,9 +209,9 @@ socials:
       target: "_blank"
   - social:
       icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
+      url: "https://www.instagram.com/stronkbear_studio/"
       title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
+      alt: "Stronkbear Studio on Instagram"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"

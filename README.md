@@ -299,7 +299,15 @@ If a build fails (e.g. a broken Liquid reference), the watcher prints the error 
 
 You can set a custom GitHub Pages domain, such as my own: [https://link.zhgchg.li](https://link.zhgchg.li).
 
-Follow [my tutorial for domain binding.](https://en.zhgchg.li/posts/zrealm-dev/github-pages-custom-domain-setup-replace-github-io-with-your-own-domain-483af5d93297) If you'd like, you can [purchase a domain through my Namecheap referral](https://namecheap.pxf.io/P0jdZQ) link — I'll earn a small commission, which helps me keep contributing to open-source projects.
+This repo now ships a root-level [`CNAME`](./CNAME), so each deployment publishes the custom domain automatically.
+
+For this site, configure GitHub Pages + DNS like this:
+
+1. In **Settings → Pages**, keep the site publishing from the `gh-pages` branch and set the custom domain to `links.stronkbear.gay`.
+2. In your DNS provider, add a `CNAME` record for `links` pointing to `ian-antking.github.io`.
+3. Wait for GitHub Pages to finish provisioning, then enable **Enforce HTTPS** in **Settings → Pages** once it becomes available.
+
+For a general walkthrough, follow [my tutorial for domain binding.](https://en.zhgchg.li/posts/zrealm-dev/github-pages-custom-domain-setup-replace-github-io-with-your-own-domain-483af5d93297) If you'd like, you can [purchase a domain through my Namecheap referral](https://namecheap.pxf.io/P0jdZQ) link — I'll earn a small commission, which helps me keep contributing to open-source projects.
 
 ---
 

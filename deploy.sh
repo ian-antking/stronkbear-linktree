@@ -40,7 +40,7 @@ backup() {
   mv "$SITE_DIR"/* "$_backup_dir"
   mv .git "$_backup_dir"
 
-  if [[ -f CNAME ]]; then
+  if [[ -f CNAME && ! -f "$_backup_dir/CNAME" ]]; then
     mv CNAME "$_backup_dir"
   fi
 }
