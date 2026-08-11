@@ -83,6 +83,13 @@ links:
       alt: "Stronkbear online shop"
       title: "Stronkbear online shop"
       target: "_blank"
+  - link:
+      icon: "fa-solid fa-shirt"
+      text: "T-Shirt Shop"
+      url: "https://www.themoodybear.com/themoody/p/sociallyorcward"
+      alt: "Stronkbear t-shirt shop"
+      title: "Stronkbear t-shirt shop"
+      target: "_blank"
 
 # -----------------------------------------------------------------------------
 # Social media buttons
